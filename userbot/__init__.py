@@ -43,7 +43,6 @@ if version_info[0] < 3 or version_info[1] < 8:
 # Check if the config was edited by using the already used variable.
 # Basically, its the 'virginity check' for the config file ;)
 CONFIG_CHECK = os.environ.get(**,none)
- None)
 
 if CONFIG_CHECK:
     LOGS.info(
